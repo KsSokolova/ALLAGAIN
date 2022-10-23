@@ -43,4 +43,26 @@
 //     x++;
 // }
 
+// // Задача 9. Напишите программу, которая выводит случайное число из отрезка [10, 99] и показывает наибольшую цифру числа
+// int number = Convert.ToInt32(Console.ReadLine());
+// int firstDigit = number/10;
+// int secondDigit = number%10;
+// if (firstDigit>secondDigit) Console.WriteLine (firstDigit);
+// else Console.WriteLine(secondDigit);
 
+// //1.Напишите программу, которая выводит случайное трёхзначное число и удаляет вторую цифру этого числа. 456 -> 46 782 -> 72 918 -> 98
+// Console.WriteLine("Введите трехзначное число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// int firstDigit = number/100;
+// int thirdDigit = number%10;
+// Console.WriteLine($"{firstDigit}{thirdDigit}");
+
+// 2. Напишите программу, которая будет принимать на вход два числа и выводить, является ли второе
+// число кратным первому. Если число 2 не кратно числу 1, то программа выводит остаток от деления.
+// 34, 5 -> не кратно, остаток 4 16, 4 -> кратно
+Console.WriteLine("Введите первое число: ");
+int number1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите второе число: ");
+int number2 = Convert.ToInt32(Console.ReadLine());
+if (number1%number2==0) Console.WriteLine($"кратное");
+else Console.WriteLine(number1%number2);

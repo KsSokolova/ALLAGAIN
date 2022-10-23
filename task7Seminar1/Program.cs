@@ -25,3 +25,9 @@
 // if (number2>number1) max = number2;
 // if (number3>number2) max = number3;
 // Console.WriteLine($"max {max}");
+
+//Задача 6. Напишите программу, кот на вход принимает число и выдает, является ли оно четным
+Console.WriteLine("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+if (number%2==0) Console.WriteLine($"четное");
+else Console.WriteLine($"не четное");

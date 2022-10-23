@@ -1,4 +1,4 @@
-﻿// Напишите программу, которая на вход принимает число и выдает его квадрат
+﻿// 1. Напишите программу, которая на вход принимает число и выдает его квадрат
 // Console.Write ("Введите число: ");
 // int number = Convert.ToInt32(Console.ReadLine());
 // int square = number*number;
@@ -13,7 +13,7 @@
 // else Console.WriteLine ($"net");
 
 
-// Напишите программу, которая будет выдавать название дня недели по заданному номеру
+// 3Напишите программу, которая будет выдавать название дня недели по заданному номеру
 // Console.WriteLine ("Напишите цифру дня недели: ");
 // int number = Convert.ToInt32(Console.ReadLine());
 // if (number == 1) Console.WriteLine ($"Это понедельник");
@@ -24,12 +24,14 @@
 // if (number == 6) Console.WriteLine ($"Это сб");
 // if (number == 7) Console.WriteLine ($"Это вск");
 
-// НАпишите программу, кот на вход принимает число N, а на выходе дает все целые числа от -N до N
-Console.WriteLine ("Введите число: ");
-int number = Convert.ToInt32(Console.ReadLine());
-int count = number *(-1);
-while (count<=number)
-{
-    Console.Write(count + " ");
-    count++;
-}
+// 4 Напишите программу, кот на вход принимает число N, а на выходе дает все целые числа от -N до N
+// Console.WriteLine ("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// int count = number *(-1);
+// while (count<=number)
+// {
+//     Console.Write(count + " ");
+//     count++;
+// }
+
+

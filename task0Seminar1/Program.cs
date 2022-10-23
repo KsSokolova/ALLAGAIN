@@ -14,12 +14,22 @@
 
 
 // Напишите программу, которая будет выдавать название дня недели по заданному номеру
-Console.WriteLine ("Напишите цифру дня недели: ");
+// Console.WriteLine ("Напишите цифру дня недели: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// if (number == 1) Console.WriteLine ($"Это понедельник");
+// if (number == 2) Console.WriteLine ($"Это вторник"); 
+// if (number == 3) Console.WriteLine ($"Это среда");
+// if (number == 4) Console.WriteLine ($"Это чт");
+// if (number == 5) Console.WriteLine ($"Это пт");
+// if (number == 6) Console.WriteLine ($"Это сб");
+// if (number == 7) Console.WriteLine ($"Это вск");
+
+// НАпишите программу, кот на вход принимает число N, а на выходе дает все целые числа от -N до N
+Console.WriteLine ("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-if (number == 1) Console.WriteLine ($"Это понедельник");
-if (number == 2) Console.WriteLine ($"Это вторник"); 
-if (number == 3) Console.WriteLine ($"Это среда");
-if (number == 4) Console.WriteLine ($"Это чт");
-if (number == 5) Console.WriteLine ($"Это пт");
-if (number == 6) Console.WriteLine ($"Это сб");
-if (number == 7) Console.WriteLine ($"Это вск");
+int count = number *(-1);
+while (count<=number)
+{
+    Console.Write(count + " ");
+    count++;
+}

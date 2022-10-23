@@ -27,7 +27,20 @@
 // Console.WriteLine($"max {max}");
 
 //Задача 6. Напишите программу, кот на вход принимает число и выдает, является ли оно четным
-Console.WriteLine("Введите число: ");
-int number = Convert.ToInt32(Console.ReadLine());
-if (number%2==0) Console.WriteLine($"четное");
-else Console.WriteLine($"не четное");
+// Console.WriteLine("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// if (number%2==0) Console.WriteLine($"четное");
+// else Console.WriteLine($"не четное");
+
+// Задача 8. Напишите программу, которая на вход принимает число N, а на выходе показывает все четные числа от 1 до N
+// Console.WriteLine("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// int x = 1;
+// while (x<=number) 
+// {
+//     if (x%2==0)
+//     Console.Write(x + " ");
+//     x++;
+// }
+
+

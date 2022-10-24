@@ -19,4 +19,25 @@
 // double d = Math.Sqrt(Math.Pow(x2-x1,2) + Math.Pow(y2-y1,2));
 // Console.WriteLine (Math.Round(d,3));
 
+// // Напишите программу, которая принимает на вход число N и выдает таблицу квадратов чисел от 1 до N
+// int start = 1;
+// Console.WriteLine ("ВВедите число N: ");
+// int end = Convert.ToInt32(Console.ReadLine());
+// while (start <= end);
+// {
+//     Console.WriteLine(start * start);
+//     start++;
+// }
+// через цикл FOR:
 
+// int end = Convert.ToInt32(Console.ReadLine());
+// for (int start = 1; start<=end; start++);
+// {
+//     Console.WriteLine(start*start);
+// }
+
+int end = 10;
+for (int start = 1; start < end; start+=2)
+{
+    Console.WriteLine(start);
+}
